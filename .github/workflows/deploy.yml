@@ -29,4 +29,4 @@ jobs:
 
 
       - name: Verify Pushed Image
-        uses: docker pull jestico/ci-cd-app:latest
+        run: docker pull jestico/ci-cd-app:latest
